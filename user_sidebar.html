@@ -1,0 +1,77 @@
+<!doctype html>
+<li class="nav-divider">
+    Menu
+</li>
+<li class="nav-item">
+    <a class="nav-link" href="#" aria-expanded="false" data-target="#submenu-1" aria-controls="submenu-1"><i
+            class="fa fa-fw fa-home"></i>Home <span class="badge badge-success">6</span></a>
+</li>
+<!-- STUDENT -->
+<li class="nav-item">
+    <a class="nav-link" href="#" data-toggle="collapse" aria-expanded="false" data-target="#submenu-2"
+        aria-controls="submenu-2"><i class="fa fa-fw fa-child"></i>Students</a>
+    <div id="submenu-2" class="collapse submenu">
+        <ul class="nav flex-column">
+            <li class="nav-item">
+                <a class="nav-link" href="/Sistem_Dashboard/views/students/student_population.php">Population</a>
+            </li>
+            <!-- <li class="nav-item">
+                <a class="nav-link" href="/Sistem_Dashboard/views/students/student_academic.php">Academic
+                    Performance</a>
+            </li> -->
+            <li class="nav-item">
+                <a class="nav-link" href="#" data-toggle="collapse" aria-expanded="false" data-target="#submenu-user"
+                    aria-controls="submenu-user">Academic Performance</a>
+                <div id="submenu-user" class="collapse submenu">
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                            <a class="nav-link"
+                                href="/Sistem_Dashboard/views/students/student_academicscience.php">Science
+                                Major</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link"
+                                href="/Sistem_Dashboard/views/students/student_academicsocial.php">Social
+                                Major</a>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/Sistem_Dashboard/views/students/student_graduate.php">Graduate
+                    Performance</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/Sistem_Dashboard/views/students/student_behavior.php">Behavior Report</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/Sistem_Dashboard/views/students/student_payment.php">Payment Status</a>
+            </li>
+        </ul>
+    </div>
+</li>
+
+<!-- STAFF -->
+<li class="nav-item">
+    <a class="nav-link" href="/Sistem_Dashboard/views/staffs/staff_population.php"><i
+            class="fas fa-fw fa-users"></i>Staff</a>
+</li>
+
+<!-- FINANCE -->
+<li class="nav-item ">
+    <a class="nav-link" href="#" data-toggle="collapse" aria-expanded="false" data-target="#submenu-4"
+        aria-controls="submenu-4"><i class="fas fa-fw fa-book"></i>Finance</a>
+    <div id="submenu-4" class="collapse submenu">
+        <ul class="nav flex-column">
+            <li class="nav-item">
+                <a class="nav-link" href="/Sistem_Dashboard/views/finance/finance_asset.php">Asset</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/Sistem_Dashboard/views/finance/finance_cashflow.php">Cash Flow</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/Sistem_Dashboard/views/finance/finance_income.php">Revenue</a>
+            </li>
+        </ul>
+    </div>
+</li>
