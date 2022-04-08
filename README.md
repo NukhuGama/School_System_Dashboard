@@ -1,2 +1,2 @@
 
-## A school System Dashboard was dveloped using Gurrido Jqgrid Js
+## A school System Dashboard was developed using Gurrido Jqgrid Js
